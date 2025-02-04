@@ -26,42 +26,6 @@ The dataset used for this project is called `online_shoppers_intention.csv`, con
 - **Weekend**: Indicates if the visit occurred on a weekend
 - **Revenue**: Target variable indicating whether the visitor made a purchase
 
-### Project Structure
-
-```
-/online_shoppers_intention_prediction
-│
-├── data/
-│   └── online_shoppers_intention.csv      # Dataset used for training and testing
-│
-├── models/
-│   └── best_model.joblib                 # Saved model after hyperparameter tuning
-│
-├── notebooks/
-│   └── exploratory_data_analysis.ipynb   # Jupyter notebook for exploratory data analysis (EDA)
-│   └── model_training.ipynb              # Jupyter notebook for model training and evaluation
-│
-├── src/
-│   ├── data_preprocessing.py             # Script for data cleaning and preprocessing
-│   ├── feature_selection.py              # Script for feature selection process
-│   └── model_evaluation.py               # Script for evaluating model performance
-│
-└── README.md                            # Project documentation
-```
-
-### Installation and Setup
-
-1. **Clone the repository**:
-    ```bash
-    git clone <repository-url>
-    cd online_shoppers_intention_prediction
-    ```
-
-2. **Install required packages**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
 ### Usage
 
 #### Data Preprocessing:
