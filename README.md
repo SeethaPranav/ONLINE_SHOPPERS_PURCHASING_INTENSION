@@ -29,7 +29,7 @@ The dataset used for this project is called `online_shoppers_intention.csv`, con
 ### Usage
 
 #### Data Preprocessing:
-Run `data_preprocessing.py` to clean and preprocess the dataset.
+To clean and preprocess the dataset.
 
 #### Feature Selection:
-Execute `feature_selection.py` to select relevant features for modeling.
+Select relevant features for modeling.
